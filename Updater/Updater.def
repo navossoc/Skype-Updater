@@ -1,0 +1,38 @@
+;dumpbin /exports Updater.dll
+;
+;Dump of file Updater.dll
+;
+;File Type: DLL
+;
+;  Section contains the following exports for Updater.dll
+;
+;    00000000 characteristics
+;    533DB398 time date stamp Thu Apr 03 16:16:40 2014
+;        0.00 version
+;           1 ordinal base
+;           5 number of functions
+;           5 number of names
+;
+;    ordinal hint RVA      name
+;
+;          1    0 000020E0 DllCanUnloadNow
+;          2    1 000042D0 DllGetClassObject
+;          3    2 000048B0 DllInstall
+;          4    3 00004890 DllRegisterServer
+;          5    4 000048A0 DllUnregisterServer
+;
+;  Summary
+;
+;        2000 .data
+;        5000 .rdata
+;        2000 .reloc
+;        2000 .rsrc
+;        C000 .text
+
+LIBRARY Updater
+EXPORTS
+DllCanUnloadNow			PRIVATE
+DllGetClassObject		PRIVATE
+DllInstall				PRIVATE
+DllRegisterServer		PRIVATE
+DllUnregisterServer		PRIVATE
