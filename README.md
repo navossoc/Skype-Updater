@@ -13,6 +13,9 @@ Just replace the file Updater.dll in %ProgramFiles%\Skype\Updater
 #### 64 bits
 Just replace the file Updater.dll in %ProgramFiles(x86)%\Skype\Updater
 
+## History
+- [Version 1.0.0](https://github.com/navossoc/Skype-Updater/releases/tag/v1.0.0): Public release
+
 ## Troubleshooting
 #### Your solution (DLL) doesn't seem to work.
 Try to check if the Skype Updater service is set to Automatic (default).
